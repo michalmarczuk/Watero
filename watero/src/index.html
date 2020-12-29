@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Watero</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <img class="logo" src="img/logo.png" alt="Watero">
+
+    <div class="container">
+        <span class="number">0</span>
+        <span>X</span>
+        <img class="add" src="img/water.png" width="50px" height="50px">
+        <span>=</span>
+        <span class="drinkedWater">0.0</span><span> L</span>
+    </div>
+
+    <footer class="flexContainer">
+        <span class="settings">
+            <i class="material-icons">tune</i>
+            <span>Settings</span>
+        </span>
+        <span>Watero 2019</span>
+    </footer>
+
+    <div class="settingsPanel hide flexContainer">
+        <button>Clear count</button>
+        <div>
+            <span class="capacity">400</span><span> ml</span>
+            <input type="range" min="150" max="400" value="250" step="10" class="slider">
+        </div>
+    </div>
+
+</body>
+
+</html>

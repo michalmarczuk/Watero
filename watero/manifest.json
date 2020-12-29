@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "Watero",
+	"description": "Watero - Water drink counter browser extension.",
+	"version": "1.0",
+	"browser_action": {
+        "default_icon": "./watero/img/water.png",
+        "default_title": "Watero",
+        "default_popup": "./watero/index.html"
+	},
+	"icons": {
+        "512": "./watero/img/water.png"
+    }
+}
